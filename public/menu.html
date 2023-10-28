@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="assets/css/boostrap.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap&subset=latin-ext" rel="stylesheet">
+
+    <link rel="icon" href="assets/img/gallery/logo.jpg">
+    <title>P3 Food Order</title>
+</head>
+<body class="">
+
+    <nav class="navigation">
+            <ul class="head-nav mb-0">
+        
+                <li class="head-nav__item">
+                    <a href="../index.html" class="head-nav__link">
+                        <div class="head-nav__logo">
+                                <img class="head-nav__logo" src="assets/img/gallery/logo.jpg">
+                        </div>
+                        
+                    </a>
+                </li>
+        
+                <li class="head-nav__item">
+                        <a href="#" class="head-nav__link font-weight-bold">
+                            Menu
+                        </a>
+                </li>
+        
+                <li class="head-nav__item">
+                    
+                            <a href="viewCart.html" class="head-nav__link">
+                                Order
+                            </a>
+                </li>
+                
+                <!--<li class="head-nav__item">
+                                <a href="detail.html" class="head-nav__link">
+                                    Deals
+                                </a>
+                </li>
+        
+                <li class="head-nav__item">
+                        <a href="about.html" class="head-nav__link">
+                            About
+                        </a>
+                </li>
+        
+                <li class="head-nav__item">
+                        <a href="contact.html" class="head-nav__link">
+                            
+                        </a>
+                </li>
+        
+                <li class="head-nav__item">
+                        <a href="login.html" class="head-nav__link ">
+                        Login
+                        </a>
+                </li>
+        
+                <li class="head-nav__item">
+                        <a href="signup.html" class="head-nav__link">
+                        Sign UP
+                        </a>
+                </li>-->
+
+                <li class="head-nav__item-cart">
+                        <a href="viewCart.html" class="head-nav__link">
+                            <i class="fas fa-2x fa-shopping-cart"></i>
+                        </a>
+                </li>
+            </ul>
+    </nav>
+
+    <!--<div class="container my-5">
+        <div class="nav-category row align-items-center align-content-start justify-content-center">
+           <a href="#" class="nav-category__item col-md-3 col-sm-6 col-12 btn btn-primary font-secondary text-uppercase"> Indonesian Food</a>
+           <a href="#" class="nav-category__item col-md-3 col-sm-6 col-12 btn btn-primary font-secondary text-uppercase"> Nav Item</a>
+           <a href="#" class="nav-category__item col-md-3 col-sm-6 col-12 btn btn-primary font-secondary text-uppercase"> Nav Item</a>
+           <a href="#" class="nav-category__item col-md-3 col-sm-6 col-12 btn btn-primary font-secondary text-uppercase"> Nav Item</a>
+           <a href="#" class="nav-category__item col-md-3 col-sm-6 col-12 btn btn-primary font-secondary text-uppercase"> Nav Item</a>
+           <a href="#" class="nav-category__item col-md-3 col-sm-6 col-12 btn btn-primary font-secondary text-uppercase"> Nav Item</a>
+        </div>
+    </div>-->
+
+    <main class="menu my-5">
+        <section class="menu__items container">
+            <div>
+                <div class="category d-inline-block bg-primary text-light px-5 py-2">
+                    <h4 class="category__title font-quaterny text-uppercase text-center m-0">MENU MAKANAN</h4>
+                </div>
+                
+                <div class="items row">
+                    <div class="item col-md-6 col-12 px-sm-4 py-sm-3 p-0 bg-secondary">
+                        <div class="item__content row justify-content-center">
+                            <div class="item__image-box col-sm-4 col-12 mb-sm-0 mb-4">
+                                <img class="item__image" src="assets/img/gallery/bakedpotato.jpeg" alt="">
+                            </div>
+                            <div class="item__text col-sm-8 col-12 px-sm-2 py-sm-0 py-2 px-5 d-flex flex-column justify-content-between">
+                                <div class="">
+                                    <h4 class="item__title font-secondary text-uppercase font-weight-bold">BAKED POTATO WEDGES NO KETCHUP</h4>
+                                    <p class="item__description">Irisan kentang krispy dengan saus</p>
+                                </div>
+
+                                <div>
+                                 <!--<div class="item__size-dropdown dropdown form-group" id="select-type">
+                                        <button class="item__size-btn btn btn-tertiary btn-block dropdown-toggle" data-toggle="dropdown" >
+                                            Type <span class="caret"></span>
+                                        </button>
+                                        <ul class="item__size-dropdown-menu dropdown-menu" id="type-menu">
+                                            <li class="item__size-item dropdown-item">Restaurant or Food Experience</li>
+                                            <li class="item__size-item dropdown-item">Website or Mobile Experience</li>
+                                            <li class="item__size-item dropdown-item">Refund</li>
+                                            <li class="item__size-item dropdown-item">Late Delivery</li>
+                                            <li class="item__size-item dropdown-item">General Inquiry or Comment</li>
+                                        </ul>
+                                    </div>-->
+                                    <div class="d-flex justify-content-between">
+                                        <h3 class="item_price font-weight-bold">Rp <span class="item_price-value">22.000</span></h3>
+                                        <a href="#" class="item__cart add-cart-btn btn btn-primary font-secondary text-uppercase m-0">Tambah Pesanan</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item col-md-6 col-12 px-sm-4 py-sm-3 p-0 bg-secondary">
+                            <div class="item__content row justify-content-center">
+                                <div class="item__image-box col-sm-4 col-12 mb-sm-0 mb-4">
+                                    <img class="item__image" src="assets/img/gallery/katsu.jpeg" alt="">
+                                </div>
+                                <div class="item__text col-sm-8 col-12 px-sm-2 py-sm-0 py-2 px-5 d-flex flex-column justify-content-between">
+                                    <div class="">
+                                        <h4 class="item__title font-secondary text-uppercase font-weight-bold">CHIKEN KATSU</h4>
+                                        <p class="item__description">dada ayam, dengan variasi tepung roti, serta sayuran seperti salad</p>
+                                    </div>
+    
+                                   <div>
+                                       <!-- <div class="item__size-dropdown dropdown form-group" id="select-type">
+                                            <button class="item__size-btn btn btn-tertiary btn-block dropdown-toggle" data-toggle="dropdown" >
+                                                Type <span class="caret"></span>
+                                            </button>
+                                            <ul class="item__size-dropdown-menu dropdown-menu" id="type-menu">
+                                                <li class="item__size-item dropdown-item">Restaurant or Food Experience</li>
+                                                <li class="item__size-item dropdown-item">Website or Mobile Experience</li>
+                                                <li class="item__size-item dropdown-item">Refund</li>
+                                                <li class="item__size-item dropdown-item">Late Delivery</li>
+                                                <li class="item__size-item dropdown-item">General Inquiry or Comment</li>
+                                            </ul>
+                                        </div>-->
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="item_price font-weight-bold">Rp <span class="item_price-value">40.000</span></h3>
+                                            <a href="#" class="item__cart add-cart-btn btn btn-primary font-secondary text-uppercase m-0">Tambah Pesanan</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    <div class="item col-md-6 col-12 px-sm-4 py-sm-3 p-0 bg-secondary">
+                        <div class="item__content row justify-content-center">
+                            <div class="item__image-box col-sm-4 col-12 mb-sm-0 mb-4">
+                                <img class="item__image" src="assets/img/gallery/blkpaper.jpeg" alt="">
+                            </div>
+                            <div class="item__text col-sm-8 col-12 px-sm-2 py-sm-0 py-2 px-5 d-flex flex-column justify-content-between">
+                                <div class="">
+                                    <h4 class="item__title font-secondary text-uppercase font-weight-bold">CHIKEN PEPPER</h4>
+                                    <p class="item__description">Steak daging ayam yang empuk di olah dengan cara di grill / dipanggang dengan tambahan pepper</p>
+                                </div>
+
+                                <div>
+                                  <!--  <div class="item__size-dropdown dropdown form-group" id="select-type">
+                                        <button class="item__size-btn btn btn-tertiary btn-block dropdown-toggle" data-toggle="dropdown" >
+                                            Type <span class="caret"></span>
+                                        </button>
+                                        <ul class="item__size-dropdown-menu dropdown-menu" id="type-menu">
+                                            <li class="item__size-item dropdown-item">Restaurant or Food Experience</li>
+                                            <li class="item__size-item dropdown-item">Website or Mobile Experience</li>
+                                            <li class="item__size-item dropdown-item">Refund</li>
+                                            <li class="item__size-item dropdown-item">Late Delivery</li>
+                                            <li class="item__size-item dropdown-item">General Inquiry or Comment</li>
+                                        </ul>
+                                    </div>-->
+                                    <div class="d-flex justify-content-between">
+                                        <h3 class="item_price font-weight-bold">Rp <span class="item_price-value">53.000</span></h3>
+                                        <a href="#" class="item__cart add-cart-btn btn btn-primary font-secondary text-uppercase m-0">Tambah Pesanan</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item col-md-6 col-12 px-sm-4 py-sm-3 p-0 bg-secondary">
+                      <div class="item__content row justify-content-center">
+                          <div class="item__image-box col-sm-4 col-12 mb-sm-0 mb-4">
+                              <img class="item__image" src="assets/img/gallery/cordonblue.jpeg" alt="">
+                          </div>
+                          <div class="item__text col-sm-8 col-12 px-sm-2 py-sm-0 py-2 px-5 d-flex flex-column justify-content-between">
+                              <div class="">
+                                  <h4 class="item__title font-secondary text-uppercase font-weight-bold">CORDON BLEU</h4>
+                                  <p class="item__description">Fillet dada ayam digulung dengan irisan daging asap dan keju leleh</p>
+                              </div>
+
+                              <div>
+                                <!--  <div class="item__size-dropdown dropdown form-group" id="select-type">
+                                      <button class="item__size-btn btn btn-tertiary btn-block dropdown-toggle" data-toggle="dropdown" >
+                                          Type <span class="caret"></span>
+                                      </button>
+                                      <ul class="item__size-dropdown-menu dropdown-menu" id="type-menu">
+                                          <li class="item__size-item dropdown-item">Restaurant or Food Experience</li>
+                                          <li class="item__size-item dropdown-item">Website or Mobile Experience</li>
+                                          <li class="item__size-item dropdown-item">Refund</li>
+                                          <li class="item__size-item dropdown-item">Late Delivery</li>
+                                          <li class="item__size-item dropdown-item">General Inquiry or Comment</li>
+                                      </ul>
+                                  </div>-->
+                                  <div class="d-flex justify-content-between">
+                                      <h3 class="item_price font-weight-bold">Rp <span class="item_price-value">100.000</span></h3>
+                                      <a href="#" class="item__cart add-cart-btn btn btn-primary font-secondary text-uppercase m-0">Tambah Pesanan</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="item col-md-6 col-12 px-sm-4 py-sm-3 p-0 bg-secondary">
+                    <div class="item__content row justify-content-center">
+                        <div class="item__image-box col-sm-4 col-12 mb-sm-0 mb-4">
+                            <img class="item__image" src="assets/img/gallery/chikenpedas.jpeg" alt="">
+                        </div>
+                        <div class="item__text col-sm-8 col-12 px-sm-2 py-sm-0 py-2 px-5 d-flex flex-column justify-content-between">
+                            <div class="">
+                                <h4 class="item__title font-secondary text-uppercase font-weight-bold">SWEET SPICY CHICKEN</h4>
+                                <p class="item__description">sayap ayam goreng dengan bumbu khas Korea bercita rasa pedas</p>
+                            </div>
+
+                            <div>
+                              <!--  <div class="item__size-dropdown dropdown form-group" id="select-type">
+                                    <button class="item__size-btn btn btn-tertiary btn-block dropdown-toggle" data-toggle="dropdown" >
+                                        Type <span class="caret"></span>
+                                    </button>
+                                    <ul class="item__size-dropdown-menu dropdown-menu" id="type-menu">
+                                        <li class="item__size-item dropdown-item">Restaurant or Food Experience</li>
+                                        <li class="item__size-item dropdown-item">Website or Mobile Experience</li>
+                                        <li class="item__size-item dropdown-item">Refund</li>
+                                        <li class="item__size-item dropdown-item">Late Delivery</li>
+                                        <li class="item__size-item dropdown-item">General Inquiry or Comment</li>
+                                    </ul>
+                                </div>-->
+                                <div class="d-flex justify-content-between">
+                                    <h3 class="item_price font-weight-bold">Rp <span class="item_price-value">30.000</span></h3>
+                                    <a href="#" class="item__cart add-cart-btn btn btn-primary font-secondary text-uppercase m-0">Tambah Pesanan</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item col-md-6 col-12 px-sm-4 py-sm-3 p-0 bg-secondary">
+                  <div class="item__content row justify-content-center">
+                      <div class="item__image-box col-sm-4 col-12 mb-sm-0 mb-4">
+                          <img class="item__image" src="assets/img/gallery/wingsbbq.jpeg" alt="">
+                      </div>
+                      <div class="item__text col-sm-8 col-12 px-sm-2 py-sm-0 py-2 px-5 d-flex flex-column justify-content-between">
+                          <div class="">
+                              <h4 class="item__title font-secondary text-uppercase font-weight-bold">BBQ CHICKEN WINGS</h4>
+                              <p class="item__description">ayam tepung dibaluri saus BBQ</p>
+                          </div>
+
+                          <div>
+                            <!--  <div class="item__size-dropdown dropdown form-group" id="select-type">
+                                  <button class="item__size-btn btn btn-tertiary btn-block dropdown-toggle" data-toggle="dropdown" >
+                                      Type <span class="caret"></span>
+                                  </button>
+                                  <ul class="item__size-dropdown-menu dropdown-menu" id="type-menu">
+                                      <li class="item__size-item dropdown-item">Restaurant or Food Experience</li>
+                                      <li class="item__size-item dropdown-item">Website or Mobile Experience</li>
+                                      <li class="item__size-item dropdown-item">Refund</li>
+                                      <li class="item__size-item dropdown-item">Late Delivery</li>
+                                      <li class="item__size-item dropdown-item">General Inquiry or Comment</li>
+                                  </ul>
+                              </div>-->
+                              <div class="d-flex justify-content-between">
+                                  <h3 class="item_price font-weight-bold">Rp <span class="item_price-value">30.000</span></h3>
+                                  <a href="#" class="item__cart add-cart-btn btn btn-primary font-secondary text-uppercase m-0">Tambah Pesanan</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="item col-md-6 col-12 px-sm-4 py-sm-3 p-0 bg-secondary">
+                <div class="item__content row justify-content-center">
+                    <div class="item__image-box col-sm-4 col-12 mb-sm-0 mb-4">
+                        <img class="item__image" src="assets/img/gallery/steakbeef.jpeg" alt="">
+                    </div>
+                    <div class="item__text col-sm-8 col-12 px-sm-2 py-sm-0 py-2 px-5 d-flex flex-column justify-content-between">
+                        <div class="">
+                            <h4 class="item__title font-secondary text-uppercase font-weight-bold">STEAK BEEF</h4>
+                            <p class="item__description">Daging sapi, saus BBQ/saus mushroom, kentang</p>
+                        </div>
+
+                        <div>
+                          <!--  <div class="item__size-dropdown dropdown form-group" id="select-type">
+                                <button class="item__size-btn btn btn-tertiary btn-block dropdown-toggle" data-toggle="dropdown" >
+                                    Type <span class="caret"></span>
+                                </button>
+                                <ul class="item__size-dropdown-menu dropdown-menu" id="type-menu">
+                                    <li class="item__size-item dropdown-item">Restaurant or Food Experience</li>
+                                    <li class="item__size-item dropdown-item">Website or Mobile Experience</li>
+                                    <li class="item__size-item dropdown-item">Refund</li>
+                                    <li class="item__size-item dropdown-item">Late Delivery</li>
+                                    <li class="item__size-item dropdown-item">General Inquiry or Comment</li>
+                                </ul>
+                            </div>-->
+                            <div class="d-flex justify-content-between">
+                                <h3 class="item_price font-weight-bold">Rp <span class="item_price-value">110.000</span></h3>
+                                <a href="#" class="item__cart add-cart-btn btn btn-primary font-secondary text-uppercase m-0">Tambah Pesanan</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item col-md-6 col-12 px-sm-4 py-sm-3 p-0 bg-secondary">
+              <div class="item__content row justify-content-center">
+                  <div class="item__image-box col-sm-4 col-12 mb-sm-0 mb-4">
+                      <img class="item__image" src="assets/img/gallery/spaghetti.jpeg" alt="">
+                  </div>
+                  <div class="item__text col-sm-8 col-12 px-sm-2 py-sm-0 py-2 px-5 d-flex flex-column justify-content-between">
+                      <div class="">
+                          <h4 class="item__title font-secondary text-uppercase font-weight-bold">SPAGHETTI CARBONARA</h4>
+                          <p class="item__description"> spaghetti dengan saus telur, keju dan daging</p>
+                      </div>
+
+                      <div>
+                        <!--  <div class="item__size-dropdown dropdown form-group" id="select-type">
+                              <button class="item__size-btn btn btn-tertiary btn-block dropdown-toggle" data-toggle="dropdown" >
+                                  Type <span class="caret"></span>
+                              </button>
+                              <ul class="item__size-dropdown-menu dropdown-menu" id="type-menu">
+                                  <li class="item__size-item dropdown-item">Restaurant or Food Experience</li>
+                                  <li class="item__size-item dropdown-item">Website or Mobile Experience</li>
+                                  <li class="item__size-item dropdown-item">Refund</li>
+                                  <li class="item__size-item dropdown-item">Late Delivery</li>
+                                  <li class="item__size-item dropdown-item">General Inquiry or Comment</li>
+                              </ul>
+                          </div>-->
+                          <div class="d-flex justify-content-between">
+                              <h3 class="item_price font-weight-bold">Rp <span class="item_price-value">35.000</span></h3>
+                              <a href="#" class="item__cart add-cart-btn btn btn-primary font-secondary text-uppercase m-0">Tambah Pesanan</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="item col-md-6 col-12 px-sm-4 py-sm-3 p-0 bg-secondary">
+            <div class="item__content row justify-content-center">
+                <div class="item__image-box col-sm-4 col-12 mb-sm-0 mb-4">
+                    <img class="item__image" src="assets/img/gallery/nasgorseafood.jpeg" alt="">
+                </div>
+                <div class="item__text col-sm-8 col-12 px-sm-2 py-sm-0 py-2 px-5 d-flex flex-column justify-content-between">
+                    <div class="">
+                        <h4 class="item__title font-secondary text-uppercase font-weight-bold">NASI GORENG SEAFOOD</h4>
+                        <p class="item__description">udang,cumi,baso,sosis</p>
+                    </div>
+
+                    <div>
+                      <!--  <div class="item__size-dropdown dropdown form-group" id="select-type">
+                            <button class="item__size-btn btn btn-tertiary btn-block dropdown-toggle" data-toggle="dropdown" >
+                                Type <span class="caret"></span>
+                            </button>
+                            <ul class="item__size-dropdown-menu dropdown-menu" id="type-menu">
+                                <li class="item__size-item dropdown-item">Restaurant or Food Experience</li>
+                                <li class="item__size-item dropdown-item">Website or Mobile Experience</li>
+                                <li class="item__size-item dropdown-item">Refund</li>
+                                <li class="item__size-item dropdown-item">Late Delivery</li>
+                                <li class="item__size-item dropdown-item">General Inquiry or Comment</li>
+                            </ul>
+                        </div>-->
+                        <div class="d-flex justify-content-between">
+                            <h3 class="item_price font-weight-bold">Rp <span class="item_price-value">30.000</span></h3>
+                            <a href="#" class="item__cart add-cart-btn btn btn-primary font-secondary text-uppercase m-0">Tambah Pesanan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="item col-md-6 col-12 px-sm-4 py-sm-3 p-0 bg-secondary">
+          <div class="item__content row justify-content-center">
+              <div class="item__image-box col-sm-4 col-12 mb-sm-0 mb-4">
+                  <img class="item__image" src="assets/img/gallery/yamin.jpg" alt="">
+              </div>
+              <div class="item__text col-sm-8 col-12 px-sm-2 py-sm-0 py-2 px-5 d-flex flex-column justify-content-between">
+                  <div class="">
+                      <h4 class="item__title font-secondary text-uppercase font-weight-bold">YAMIN AYAM</h4>
+                      <p class="item__description">mie, bakso, siomai, tahu ikan, pangsit goreng, sayur sawi, daun bawang, bawang goreng, tongcay, dan daun seledri.</p>
+                  </div>
+
+                  <div>
+                    <!--  <div class="item__size-dropdown dropdown form-group" id="select-type">
+                          <button class="item__size-btn btn btn-tertiary btn-block dropdown-toggle" data-toggle="dropdown" >
+                              Type <span class="caret"></span>
+                          </button>
+                          <ul class="item__size-dropdown-menu dropdown-menu" id="type-menu">
+                              <li class="item__size-item dropdown-item">Restaurant or Food Experience</li>
+                              <li class="item__size-item dropdown-item">Website or Mobile Experience</li>
+                              <li class="item__size-item dropdown-item">Refund</li>
+                              <li class="item__size-item dropdown-item">Late Delivery</li>
+                              <li class="item__size-item dropdown-item">General Inquiry or Comment</li>
+                          </ul>
+                      </div>-->
+                      <div class="d-flex justify-content-between">
+                          <h3 class="item_price font-weight-bold">Rp <span class="item_price-value">20.000</span></h3>
+                          <a href="#" class="item__cart add-cart-btn btn btn-primary font-secondary text-uppercase m-0">Tambah Pesanan</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="item col-md-6 col-12 px-sm-4 py-sm-3 p-0 bg-secondary">
+        <div class="item__content row justify-content-center">
+            <div class="item__image-box col-sm-4 col-12 mb-sm-0 mb-4">
+                <img class="item__image" src="assets/img/gallery/basospecial.jpeg" alt="">
+            </div>
+            <div class="item__text col-sm-8 col-12 px-sm-2 py-sm-0 py-2 px-5 d-flex flex-column justify-content-between">
+                <div class="">
+                    <h4 class="item__title font-secondary text-uppercase font-weight-bold">BASO SPESIAL</h4>
+                    <p class="item__description">Baso besar + kecil, tetelan, sayur + mie kuning/bihun</p>
+                </div>
+
+                <div>
+                  <!--  <div class="item__size-dropdown dropdown form-group" id="select-type">
+                        <button class="item__size-btn btn btn-tertiary btn-block dropdown-toggle" data-toggle="dropdown" >
+                            Type <span class="caret"></span>
+                        </button>
+                        <ul class="item__size-dropdown-menu dropdown-menu" id="type-menu">
+                            <li class="item__size-item dropdown-item">Restaurant or Food Experience</li>
+                            <li class="item__size-item dropdown-item">Website or Mobile Experience</li>
+                            <li class="item__size-item dropdown-item">Refund</li>
+                            <li class="item__size-item dropdown-item">Late Delivery</li>
+                            <li class="item__size-item dropdown-item">General Inquiry or Comment</li>
+                        </ul>
+                    </div>-->
+                    <div class="d-flex justify-content-between">
+                        <h3 class="item_price font-weight-bold">Rp <span class="item_price-value">20.000</span></h3>
+                        <a href="#" class="item__cart add-cart-btn btn btn-primary font-secondary text-uppercase m-0">Tambah Pesanan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="item col-md-6 col-12 px-sm-4 py-sm-3 p-0 bg-secondary">
+      <div class="item__content row justify-content-center">
+          <div class="item__image-box col-sm-4 col-12 mb-sm-0 mb-4">
+              <img class="item__image" src="assets/img/gallery/capcai.jpg" alt="">
+          </div>
+          <div class="item__text col-sm-8 col-12 px-sm-2 py-sm-0 py-2 px-5 d-flex flex-column justify-content-between">
+              <div class="">
+                  <h4 class="item__title font-secondary text-uppercase font-weight-bold">CAPCAI</h4>
+                  <p class="item__description">Berbagai macam sayur, seafood, baso, sosis + Nasi</p>
+              </div>
+
+              <div>
+                <!--  <div class="item__size-dropdown dropdown form-group" id="select-type">
+                      <button class="item__size-btn btn btn-tertiary btn-block dropdown-toggle" data-toggle="dropdown" >
+                          Type <span class="caret"></span>
+                      </button>
+                      <ul class="item__size-dropdown-menu dropdown-menu" id="type-menu">
+                          <li class="item__size-item dropdown-item">Restaurant or Food Experience</li>
+                          <li class="item__size-item dropdown-item">Website or Mobile Experience</li>
+                          <li class="item__size-item dropdown-item">Refund</li>
+                          <li class="item__size-item dropdown-item">Late Delivery</li>
+                          <li class="item__size-item dropdown-item">General Inquiry or Comment</li>
+                      </ul>
+                  </div>-->
+                  <div class="d-flex justify-content-between">
+                      <h3 class="item_price font-weight-bold">Rp <span class="item_price-value">25.000</span></h3>
+                      <a href="#" class="item__cart add-cart-btn btn btn-primary font-secondary text-uppercase m-0">Tambah Pesanan</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+                </div>
+            </div>
+            
+        </section>
+        
+
+    </main>
+    <main class="menu my-5">
+        <section class="menu__items container">
+            <div>
+                <div class="category d-inline-block bg-primary text-light px-5 py-2">
+                    <h4 class="category__title font-quaterny text-uppercase text-center m-0">MENU MINUMAN</h4>
+                </div>
+
+                <div class="items row">
+                <div class="item col-md-6 col-12 px-sm-4 py-sm-3 p-0 bg-secondary">
+                    <div class="item__content row justify-content-center">
+                        <div class="item__image-box col-sm-4 col-12 mb-sm-0 mb-4">
+                            <img class="item__image" src="assets/img/gallery/thaitea.jpeg" alt="">
+                        </div>
+                        <div class="item__text col-sm-8 col-12 px-sm-2 py-sm-0 py-2 px-5 d-flex flex-column justify-content-between">
+                            <div class="">
+                                <h4 class="item__title font-secondary text-uppercase font-weight-bold">THAI TEA</h4>
+                                <p class="item__description">Original + gularen boba</p>
+                            </div>
+              
+                            <div>
+                              <!--  <div class="item__size-dropdown dropdown form-group" id="select-type">
+                                    <button class="item__size-btn btn btn-tertiary btn-block dropdown-toggle" data-toggle="dropdown" >
+                                        Type <span class="caret"></span>
+                                    </button>
+                                    <ul class="item__size-dropdown-menu dropdown-menu" id="type-menu">
+                                        <li class="item__size-item dropdown-item">Restaurant or Food Experience</li>
+                                        <li class="item__size-item dropdown-item">Website or Mobile Experience</li>
+                                        <li class="item__size-item dropdown-item">Refund</li>
+                                        <li class="item__size-item dropdown-item">Late Delivery</li>
+                                        <li class="item__size-item dropdown-item">General Inquiry or Comment</li>
+                                    </ul>
+                                </div>-->
+                                <div class="d-flex justify-content-between">
+                                    <h3 class="item_price font-weight-bold">Rp <span class="item_price-value">10.000</span></h3>
+                                    <a href="#" class="item__cart add-cart-btn btn btn-primary font-secondary text-uppercase m-0">Tambah Pesanan</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item col-md-6 col-12 px-sm-4 py-sm-3 p-0 bg-secondary">
+                    <div class="item__content row justify-content-center">
+                        <div class="item__image-box col-sm-4 col-12 mb-sm-0 mb-4">
+                            <img class="item__image" src="assets/img/gallery/greantea.jpeg" alt="">
+                        </div>
+                        <div class="item__text col-sm-8 col-12 px-sm-2 py-sm-0 py-2 px-5 d-flex flex-column justify-content-between">
+                            <div class="">
+                                <h4 class="item__title font-secondary text-uppercase font-weight-bold">THAI TEA GREANTEA</h4>
+                                <p class="item__description">Boba/ jelly, cincau</p>
+                            </div>
+              
+                            <div>
+                              <!--  <div class="item__size-dropdown dropdown form-group" id="select-type">
+                                    <button class="item__size-btn btn btn-tertiary btn-block dropdown-toggle" data-toggle="dropdown" >
+                                        Type <span class="caret"></span>
+                                    </button>
+                                    <ul class="item__size-dropdown-menu dropdown-menu" id="type-menu">
+                                        <li class="item__size-item dropdown-item">Restaurant or Food Experience</li>
+                                        <li class="item__size-item dropdown-item">Website or Mobile Experience</li>
+                                        <li class="item__size-item dropdown-item">Refund</li>
+                                        <li class="item__size-item dropdown-item">Late Delivery</li>
+                                        <li class="item__size-item dropdown-item">General Inquiry or Comment</li>
+                                    </ul>
+                                </div>-->
+                                <div class="d-flex justify-content-between">
+                                    <h3 class="item_price font-weight-bold">Rp <span class="item_price-value">25.000</span></h3>
+                                    <a href="#" class="item__cart add-cart-btn btn btn-primary font-secondary text-uppercase m-0">Tambah Pesanan</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="assets/js/menu.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
