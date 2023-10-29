@@ -91,24 +91,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // Define an array of sample menu items (you can replace this with your data)
     const menuItems = [
       {
-        name: 'BAKED POTATO WEDGES NO KETCHUP',
-        description: 'Irisan kentang krispy dengan saus',
-        price: 22000,
-      },
-      {
-        name: 'CHIKEN PEPPER',
-        description: 'Steak daging ayam yang empuk diolah dengan tambahan pepper',
-        price: 53000,
-      },
-      {
-        name: 'CORDON BLEU',
-        description: 'Fillet dada ayam digulung dengan irisan daging asap dan keju leleh',
-        price: 100000,
-      },
-      {
-        name: 'SWEET SPICY CHICKEN',
-        description: 'Sayap ayam goreng dengan bumbu khas Korea bercita rasa pedas',
-        price: 25000,
+        name: '',
+        description: '',
+        price: '',
       },
     ];
   
@@ -118,18 +103,11 @@ document.addEventListener('DOMContentLoaded', () => {
       const menuItem = document.createElement('div');
       menuItem.classList.add('item');
       menuItem.innerHTML = `
-        <div class="item__content">
-          <div class="item__image-box">
-            <img class="item__image" src="assets/img/gallery/bakedpotato.jpeg" alt="${item.name}">
-          </div>
-          <div class="item__text">
-            <h4 class="item__title">${item.name}</h4>
-            <p class="item__description">${item.description}</p>
-            <h3 class="item_price">Rp <span class="item_price-value">${item.price}</span></h3>
-            <a href="#" class="item__cart add-cart-btn btn btn-primary">Tambah Pesanan</a>
-          </div>
-        </div>
-      `;
+      item_image.menuItem = ${item.name};
+      item_title.menuItem = ${item.name};
+      item_description.menuItem = ${item.description};
+      item_price.menuItem = ${item.price};`
+        ;
   
       // Attach event listener for "Tambah Pesanan" button click
       const addToCartButton = menuItem.querySelector('.add-cart-btn');

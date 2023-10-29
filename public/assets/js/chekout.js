@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
         metodePembayaran,
         items: [
           {
-            name: 'Zinger burger',
+            name: '',
             quantity: document.querySelector('.cart-quantity__btn').innerText,
             price: document.querySelector('.cart-quantity__price--value').innerText,
           },
